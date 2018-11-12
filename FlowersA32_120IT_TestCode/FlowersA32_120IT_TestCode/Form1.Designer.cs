@@ -28,12 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.lblInformation = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // lblInformation
+            // 
+            this.lblInformation.AutoSize = true;
+            this.lblInformation.Font = new System.Drawing.Font("Adobe Gothic Std B", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInformation.Location = new System.Drawing.Point(444, 126);
+            this.lblInformation.Name = "lblInformation";
+            this.lblInformation.Size = new System.Drawing.Size(212, 48);
+            this.lblInformation.TabIndex = 0;
+            this.lblInformation.Text = "Click one of the buttons below to \r\nbe taken to the task you want to\r\nuse";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1124, 606);
+            this.Controls.Add(this.lblInformation);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lblInformation;
     }
 }
 
